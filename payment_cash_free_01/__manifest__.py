@@ -15,7 +15,7 @@
         'views/payment_payumoney_templates.xml',
         'data/payment_acquirer_data.xml',
     ],
-    'images': ['static/description/banner.png']
+    'images': ['static/description/banner.png'],
     'application': True,
     'pre_init_hook':'pre_init_hook',
     'uninstall_hook': 'uninstall_hook',
