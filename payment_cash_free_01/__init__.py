@@ -8,7 +8,7 @@ from odoo.addons.payment import reset_payment_acquirer
 
 
 def uninstall_hook(cr, registry):
-    reset_payment_acquirer(cr, registry, 'payumoney')
+    reset_payment_acquirer(cr, registry, 'cash_free')
 
 def pre_init_hook(self):
     from odoo.release import series
