@@ -14,7 +14,7 @@ Cash Free payment gateway supports only INR currency.
     'depends': ['payment'],
     'data': [
         'views/payment_views.xml',
-        'views/payment_payumoney_templates.xml',
+        'views/payment_cash_free_templates.xml',
         'data/payment_acquirer_data.xml',
     ],
     'application': True,
